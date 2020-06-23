@@ -24,6 +24,11 @@ public class Main{
         cus1.address = "88754 Sugar land";
         
         System.out.println(acct1.getInfo(cus1));
+        
+        System.out.println(acct1.withdraw(2000));
+        System.out.println(acct1.save(-20));
+        
+        System.out.println(acct1.getInfo(cus1));
     
     }
 }
@@ -54,7 +59,7 @@ class Account {
         } else {
             return false;
         }
-    }
+    }   
 }
 
 
